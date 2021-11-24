@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meta Baka World Sign In - Sign Up</title>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== FONTS + ICONS  + JS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cherish&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/027136bf0f.js" crossorigin="anonymous"></script>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <link  rel="stylesheet"  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+    </head>
+    <body>
+      <!--=======================LOADSCREEN DIV ======================= -->
+
+        <div class="load-container">
+          <video autoplay="autoplay" muted="" loop="infinite" src="images/loader_loop_by_gleb.mp4"></video>
+        </div>
+      <div class="container">
+  <!--=======================HEADER DIV ======================= -->
+
+          <div id="card-inline">
+            <ul class="list-inline">
+              <div id="div-left"><li>
+                <a href="https://flavien0808.github.io/welcome/"  target="_blank"><img src="assets/img/MBW_logo.png" class="MBW_logo" alt="" width="150px"></a></div>
+
+              <div id="div-right">
+
+                <li><a href="index.html" class="btn-white" target="_blank">Neemy's Profile </a></li>
+                <li><a href="index.html" class="btn-white" target="_blank">Katie's Profile</a></li>
+                <li><a href="Project" class="btn-white" target="_blank">Meta Baka World Project</a></li>
+
+
+          <!--=======================SEARCH BAR JS ======================= -->
+
+                  <script language="javascript">
+                  function swap() {
+                  searchBar = document.getElementById("searchBar" );
+
+                  if (searchBar.style.display != "none" ) {
+                    searchBar.style.display = "none";
+                  }
+                  else {
+                  searchBar.style.display = "inline";
+                  }
+                  }
+                  </script>
+          <!--=======================SEARCH BAR DIV ======================= -->
+                <li><a href=# class="search-icon"onclick='swap();'><i class="fas fa-search"></i></a> </li>
+                  <div>
+                  <form action="#" class="search-box" id="searchBar"style="display:none">
+                    <input type="text" placeholder="Type something to Search...">
+                    <button class="go-icon "><i class="fas fa-long-arrow-alt-right"></i></button>
+                  </form>
+                  </div>
+              </div>
+            </ul>
+          </div class="card-inline">
+
+
+          <!--=======================LOGIN ======================= -->
+
+                  <div class="login" z-index="1100">
+                      <div class="login__content" >
+                          <div class="login__img" >
+                              <img src="assets/img/login-img.png" alt=""  >
+                          </div>
+
+                          <div class="login__forms">
+                              <form action="" class="login__registre" id="login-in">
+                                  <h1 class="login__title">Sign In</h1>
+
+                                  <div class="login__box">
+                                      <i class='bx bx-user login__icon'></i>
+                                      <input type="text" placeholder="Username" class="login__input">
+                                  </div>
+
+                                  <div class="login__box">
+                                      <i class='bx bx-lock-alt login__icon'></i>
+                                      <input type="password" placeholder="Password" class="login__input">
+                                  </div>
+
+                                  <a href="#" class="login__forgot">Forgot password?</a>
+
+                                  <a href="#" class="login__button">Sign In</a>
+
+                                  <div>
+                                      <span class="login__account">Don't have an Account ?</span>
+                                      <span class="login__signin" id="sign-up">Sign Up</span>
+                                  </div>
+                              </form>
+
+                              <form action="" class="login__create none" id="login-up">
+                                  <h1 class="login__title">Create Account</h1>
+
+                                  <div class="login__box">
+                                      <i class='bx bx-user login__icon'></i>
+                                      <input type="text" placeholder="Username" class="login__input">
+                                  </div>
+
+                                  <div class="login__box">
+                                      <i class='bx bx-at login__icon'></i>
+                                      <input type="text" placeholder="Email" class="login__input">
+                                  </div>
+
+                                  <div class="login__box">
+                                      <i class='bx bx-lock-alt login__icon'></i>
+                                      <input type="password" placeholder="Password" class="login__input">
+                                  </div>
+
+                                  <a href="#" class="login__button">Sign Up</a>
+
+                                  <div>
+                                      <span class="login__account">Already have an Account ?</span>
+                                      <span class="login__signup" id="sign-in">Sign In</span>
+                                  </div>
+
+                                  <div class="login__social">
+                                      <a href="#" class="login__social-icon"><i class='bx bxl-facebook' ></i></a>
+                                      <a href="#" class="login__social-icon"><i class='bx bxl-twitter' ></i></a>
+                                      <a href="#" class="login__social-icon"><i class='bx bxl-google' ></i></a>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+      </div>
+                  <!--===== MAIN JS =====-->
+            <script src="assets/js/main.js"></script>
+
+
+                  <!--======================= Footer DIV ======================= -->
+
+      <div class="footer">
+
+        <footer class="footer-clean">
+                      <!--=======================WAVES DIV ======================= -->
+          <div class="waves">
+               <div class="wave" id="wave1"></div>
+               <div class="wave" id="wave2"></div>
+               <div class="wave" id="wave3"></div>
+               <div class="wave" id="wave4"></div>
+          </div>
+          <div>
+            <ul class="social_icon">
+
+                <li><a href="https://www.instagram.com/meta_baka_world0/"target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://twitter.com/Meta_Baka_World"target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100074678550407"target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="https://www.snapchat.com/add/meta_bakaworld"target="_blank"><ion-icon name="logo-snapchat"></ion-icon></a></li>
+                <li><a href="https://www.linkedin.com/in/meta-baka-a80734225/"target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://www.youtube.com/channel/UCtV2R5gz-a9ATqDm8k7ce6g"target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
+                <li><a href="https://github.com/Flavien0808"target="_blank"><ion-icon name="logo-github"></ion-icon></a></li>
+
+            </ul>
+            <ul class="menu">
+              <img src="images/reaper.png" alt="devil cat" width="151.5px" height="166.5px">
+                <li><a href="https://flavien0808.github.io/welcome/"target="_blank">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+              <img src="images/devil_cat.png" alt="devil cat" width="151.5px" height="166.5px">
+            </ul>
+                <p class="copyright">©2021 Meta Baka World | All Rights Deserved</p>
+
+
+
+
+
+          </div>
+        </footer>
+      </div>
+
+
+
+               <!--======================= To-top DIV ======================= -->
+
+
+      <div id="to-top">
+        <button onclick="topFunction()" id="to-top"class="material-icons" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+      </div>
+
+
+                 <!--======================= To-top JS ======================= -->
+          <script language="javascript">
+               mybutton=document.getElementById("to-top")
+
+                 function topFunction() {
+                   document.body.scrollTop = 0;
+                   document.documentElement.scrollTop = 0;
+             }
+          </script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js" charset="utf-8"></script>
+          <script src="load.js" charset="utf-8"></script>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+.testimonials {
+  position: relative;
+}
+.swiper-slide {
+  position: relative;
+  background-position: center;
+  width: 350px;
+  background: #000;
+  margin: 0 20px;
+}
+
+.testimonials .food-card{
+position: relative;
+width: 350px;
+border-top-left-radius: 8px;
+border-top-right-radius: 8px;
+margin: 0 auto;
+background: #333;
+padding: 60px 40px;
+text-align: center;
+overflow: hidden;
+-webkit-box-reflect:below 1px linear-gradient(transparent 70%, #0009);
+}
+
+.testimonials .food-card .layer{
+position: absolute;
+top: calc(100% - 2px);
+left:0;
+width: 100%;
+height: 100%;
+background: linear-gradient(#03a9f4, #e91ee3);
+z-index:1;
+transition: 0.5s;
+}
+.testimonials .food-card:hover .layer{
+top:0;
+}
+.testimonials .food-card .content-card{
+position: relative;
+z-index: 2;
+color: white;
+font-family: fantasy;}
+
+.testimonials .food-card .content-card p{
+font-size: 18px;
+line-height: 24px;
+margin-bottom: 20px;
+}
+.testimonials .food-card .content-card .img-food {
+width: 200px;
+height: 200px;
+margin: 0 auto 10px;
+border-radius: 10%;
+overflow: hidden;
+border: 3px solid white;
+box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.testimonials .food-card .content-card h3{
+font-size: 22px;
+}
+.testimonials .food-card .content-card h3 span{
+font-size: 16px;
+color: #111;
+transition: 0.5s;
+}
+.testimonials .food-card:hover .content-card h3 span{
+color: #fff;
+}

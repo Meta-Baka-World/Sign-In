@@ -1,0 +1,32 @@
+.card-black{
+  background-color: rgb(30, 30, 30);
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+ margin: 40px 20px;
+ text-align: center;
+}
+
+#card-insta {
+  background-color: rgb(45,45,45);
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+   margin: 0;
+ align-content: center;
+
+}
+
+#card-inline{
+background-color: black;
+  padding: 0px;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.5);
+font-size: 24px;
+ margin: 5px 0px;
+ text-align: center;
+ position: fixed;
+ top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 1001;
+  }

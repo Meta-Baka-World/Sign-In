@@ -1,0 +1,126 @@
+
+.swiper {
+  width: 360px;
+  height: 510px;
+
+}
+
+.swiper .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  background-size: cover;
+  border: 6px solid black;
+}
+
+
+
+
+
+.swiper-slide i{
+
+position: absolute;
+left: -25px;
+top: 400px;
+width: 260px;
+height: 60px;
+background: black;
+border-radius: 30px;
+border: 3px solid white;
+z-index: 1000;
+}
+.swiper-slide i h3{
+position: absolute;
+align-items: center;
+justify-content: center;
+top:-30px;
+right:33px;
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 36px;
+}
+.swiper-slide:nth-child(1n) {
+
+    background: url(images/neemy12.jpg);
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(2n) {
+    background: url(images/neemy5.jpg);
+    background-size: cover;
+}
+
+.swiper-slide:nth-child(3n) {
+    background: url(images/neemy15.jpg);
+background-size: cover;
+}
+
+.swiper-slide:nth-child(4n) {
+  background: url(images/neemy4.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(5n) {
+  background: url(images/neemy13.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(6n) {
+  background: url(images/neemy11.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(7n) {
+  background: url(images/neemy14.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(8n) {
+  background: url(images/neemy9.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(9n) {
+  background: url(images/neemy2.jpg);
+  background-size: cover;
+}
+
+.swiper-slide:nth-child(10n) {
+  background: url(images/neemy10.jpg);
+  background-size: cover;
+}
+.swiper-slide:nth-child(11n) {
+  background: url(images/neemy8.jpg);
+  background-size: cover;
+}
+.swiper-slide:nth-child(12n) {
+  background: url(images/neemy7.jpg);
+  background-size: cover;
+}
+.swiper-slide:nth-child(13n) {
+  background: url(images/neemy6.jpg);
+  background-size: cover;
+}
+.swiper-slide:nth-child(14n) {
+  background: url(images/neemy.jpg);
+  background-size: cover;
+}
+.swiper-slide:nth-child(15n) {
+  background: url(images/neemy16.jpg);
+  background-size: cover;
+}
+.swiper-slide:nth-child(16n) {
+  background: url(images/neemy17.jpg);
+  background-size: cover;
+}
+.swiper-slide:nth-child(17n) {
+  background: url(images/neemy18.png);
+  background-size: cover;
+}
+.swiper-slide:nth-child(18n) {
+  background: url(images/neemy3.jpg);
+  background-size: cover;
+}
